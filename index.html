@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Edward Oboh</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <!-- <img src="img/devjane.png" alt=""> -->
+            <h3 class="logo-text">console log_</h3>
+        </div>
+        <!-- <div> -->
+        <!-- <button class="nav-toggle" aria-label="toggle navigation"> -->
+            <span class="hamburger">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </span>
+            <!-- </button> -->
+            <nav class="nav">
+                <span class="close">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </span>
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#service" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about-me" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    <!-- </div> -->
+    </header>
+
+    <!-- Introduction section -->
+     
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--into">
+            Hi, I am <strong>Edward Oboh</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">
+            Full-stact Developer
+        </p>
+        <img src="/img/edward.jpeg" class="intro__image" alt="A picture of Edward Oboh">
+    </section>
+
+    <!-- My services Section -->
+
+    <section class="my-service" id="service">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Frontend Development</h3>
+                <p>Developing and implementing user interface components using HTML,CSS and Javascrip with React.js. Building application dashbords and interfacing with REST and GraphQL APIs. Application state management with Context API and Redux.</p>
+            </div>
+
+            <div class="service">
+                <h3>Backend / API</h3>
+                <p>Design and implementation of REST and GraphQL API either for use on frontend applications or for consumption by other API services, using Javascrip (Node.js with express/fastify) and Python (Django with DangoREST/FastAPI) technologies.</p>
+            </div>
+
+            <div class="service">
+                <h3>IoT</h3>
+                <p>Design and Development of Fullstack applications for applications in Internet of Things (IoT) and Home Automation.</p>
+            </div>
+
+        </div>
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About me -->
+
+    <section class="about-me" id="about-me">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Web Developer and Computer Engineer</p>
+        <div class="about-me__body">
+            <p>I am passionate about Web Development and Technology in general. I am a skilled Fullstack Developer, Computer Engineer and master of Programming in JavaScript, Python and Java.
+                I build frontend web applications using ReactJs and VueJs Javascript frameworks and build Backend web applications using NodeJs/Express and Python(Django and Flask)
+                I also have a considerable amount of knowledge working with digital electronic devices and programming embedded systems. My combined knowledge of web development and embedded systems has enabled me build IoT projects for applications in Home Automation and Wireless Sensor Networks (for monitoring and data collection).</p>
+            <p></p>
+        </div>
+        <img src="/image/edward3.jpeg" class="about__image" alt="">
+    </section>
+
+    <!-- Portfolio -->
+    <section class="my-work" id="work">
+        <h2 class="section__title">My Work</h2>
+        <p class="section__subtitle">A selection from projects i have worked on</p>
+        <p style="display: block; font-size: 1rem; opacity: .5;">click to view</p>
+        <!-- Collapse Section 1 -->
+        <div class="portfolio">
+            <!-- portfolio item 01 -->
+            <a href="#" class="portfolio__item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight">
+                <!-- <img src="/img/portfolio-01.jpg" alt="" class="portfolio__img"> -->
+                <img src="/image/1.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- portfolio item 01 -->
+            <a href="#" class="portfolio__item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight2">
+                <!-- <img src="/img/portfolio-02.jpg" alt="" class="portfolio__img"> -->
+                <img src="/image/2.png" alt="" class="portfolio__img">
+            </a>
+            <!-- portfolio item 01 -->
+            <a href="#" class="portfolio__item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight3">
+                <!-- <img src="/img/portfolio-03.jpg" alt="" class="portfolio__img"> -->
+                <img src="/image/3.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- portfolio item 01 -->
+            <a href="#" class="portfolio__item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight4">
+                <!-- <img src="/img/portfolio-05.jpg" alt="" class="portfolio__img"> -->
+                <img src="/image/4.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- portfolio item 01 -->
+            <a href="#" class="portfolio__item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight5">
+                <!-- <img src="/img/portfolio-06.jpg" alt="" class="portfolio__img"> -->
+                <img src="/image/5.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- portfolio item 01 -->
+            <a href="#" class="portfolio__item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight6">
+                <!-- <img src="/img/portfolio-07.jpg" alt="" class="portfolio__img"> -->
+                <img src="/image/6.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- portfolio item 01 -->
+            <a href="#" class="portfolio__item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight7">
+                <!-- <img src="/img/portfolio-08.jpg" alt="" class="portfolio__img"> -->
+                <img src="/image/7.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- portfolio item 01 -->
+            <a href="#" class="portfolio__item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight8">
+                <!-- <img src="/img/portfolio-09.jpg" alt="" class="portfolio__img"> -->
+                <img src="/image/8.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- portfolio item 01 -->
+            <a href="#" class="portfolio__item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight9">
+                <!-- <img src="/img/portfolio-10.jpg" alt="" class="portfolio__img"> -->
+                <img src="/image/10.png" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <!-- CANVAS START -->
+
+    <!--  -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h3 id="offcanvasRightLabel">Student Attendance management system</h3>
+          <button type="button" class="btn-close text-reset text-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p>This project was built primarily using javascript technologies. Reactjs on the Frontend, and Nodejs on the backend. Database for storing data here is MongoDB, a personal favourite.</p>
+          <p>Fully equiped with authentication, youll need to login to view dashboard</p>
+          <p>Use <em>"edwardtest@gmail.com"</em> as email and <em>"password12345"</em> as password</p>
+          <a href="http://rfid-attend.herokuapp.com/" class="btn">View Live</a>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight2" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h3 id="offcanvasRightLabel">Wisper MVNO</h3>
+          <button type="button" class="btn-close text-reset text-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p>Wisper is a Mobile Virtual Network Operator that provides internet data subscription to end users. The application comprises both a Frontend, and a supporting backend API.</p>
+          <p>Equiped with a Database for storing service data and a cloud hosted machine.</p>
+          <a href="http://mobile.wisper.ng/" class="btn">View Live</a>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight3" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h3 id="offcanvasRightLabel">MojoPiece</h3>
+          <button type="button" class="btn-close text-reset text-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p>MojoPiece was a demo landing page i worked on for a Timepiece company interested in rebranding</p>
+          <p>The website was built using HTML, CSS (SASS in this case), and a bit of Javascript. It follows Google Material Design Style guides</p>
+          <a href="https://mojopiece.netlify.app/" class="btn">View Live</a>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight4" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h3 id="offcanvasRightLabel">IUCE Weather Station</h3>
+          <button type="button" class="btn-close text-reset text-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p>IUCE Weather station is an IoT application built to monitor a Wireless Sensor Network of devices, measuring the temperature, pressure, relative humidity and light intensity of a particular location</p>
+          <p>This application was built using Reacet.js together with MaterialUI on the frontend and Django together with DjangoREST framework on the backend. The Database system used here is Postgres. Frontend and Backend are hosted on seperate Heroku virtual machines.</p>
+          <a href="https://iuce.herokuapp.com/" class="btn">View Live</a>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight5" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h3 id="offcanvasRightLabel">Auto Crash</h3>
+          <button type="button" class="btn-close text-reset text-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p>Auto Crash is a driver monitor and accident notification application. It works together with a GPS tracker and vibration/shock sensing device. On the occurence of a crash, the system is notified and an alert is sent to the nearest hospital. The alert contains the location of crash and the detail of driver.</p>
+          <p>This application was built using Reacet.js together with Bootstrap on the frontend and Node.js together with Express on the backend. It also makes use of Websockets on the backend to enable live update of location on the map. This project integrates with Google Maps API for distance calculation, location identification with longitude and latitude, route planning and location search.</p>
+          <p>The Database system used here is MongoDB. Frontend and Backend are hosted together on Heroku</p>
+          <a href="http://auto-crash.herokuapp.com/" class="btn">View Live</a>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight6" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h3 id="offcanvasRightLabel">Auto Hydroponics | Aeroponics</h3>
+          <button type="button" class="btn-close text-reset text-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p>Auto Hydroponics Aeroponics is an IoT application built to monitor a Wireless Sensor Network of devices, measuring the temperature, relative humidity and water level of a particular hydro system</p>
+          <p>This application was built using Reacet.js together with MaterialUI on the frontend and Node.js together with Express.js on the backend. The Database system used here is MongoDB. Frontend and Backend are hosted on seperate Heroku virtual machines.</p>
+          <a href="https://auto-aeroponics.herokuapp.com/" class="btn">View Live</a>
+        </div>
+      </div>
+
+       <!--  -->
+       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight7" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h3 id="offcanvasRightLabel">Zuri Chat</h3>
+          <button type="button" class="btn-close text-reset text-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p>Zuri Chat is a collaborative workspace, a Slack clone, built by the interns of Hotels.ng (HNGi8) under the supervision of the Zuri team</p>
+          <p>During the period of the internship, i was the team lead of a team 0f 50 whose task was to build a file management system for the workspace Zuri Chat.</p>
+          <p>The application was built using a range of technologies, from Javascript, Python, GoLang to Flutter, .Net and a host of others.</p>
+          <a href="https://www.zuri.chat/" class="btn">View Live</a>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight8" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h3 id="offcanvasRightLabel">Trove Loan API</h3>
+          <button type="button" class="btn-close text-reset text-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p>I added this project here because it is a full fledged API built with Node.js and Express. I used Passport.js for token, 0Auth,2FA and password authentication, bcrypt for encryption, Mocha for tests and Swagger with OpenAPI v3 specifications for Documenting the API.</p>
+          <p>The Trove Loan API is one that allows a Trove user to take a loan up to the tune of 60% against his/her portfolio for a period of between 6 to 12 months and withdraw the cash into his back account.</p>
+          <a href="http://trove-loan.herokuapp.com/docs/" class="btn">View Live</a>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight9" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h3 id="offcanvasRightLabel">Smart Bin</h3>
+          <button type="button" class="btn-close text-reset text-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p>Smart Bin is an IoT Project of a smart waste bin to detect volume of dirt and presence of foul smell</p>
+          <p>This application was built using Reacet.js together with MaterialUI on the frontend and Node.js together with Express.js on the backend. The Database system used here is MongoDB. Frontend and Backend are hosted on seperate Heroku virtual machines.</p>
+          <a href="http://iot-bin.herokuapp.com/" class="btn">View Live</a>
+        </div>
+      </div>
+
+    <!-- CANVAS END -->
+
+
+    <!-- Footer -->
+    <footer id="contact">
+        <a href="mailto:obohedward@gmail.com">obohedward@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/edwardoboh"><i class="fa fa-github" aria-hidden="true"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://linkedin.com/in/edwardoboh"><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com/Edwardoboh"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.instagram.com/edwardoboh/"><i class="fa fa-instagram"></i></a>
+            </li>
+        </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/834e8d1fb3.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
